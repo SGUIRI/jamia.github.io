@@ -1,0 +1,364 @@
+
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(233, 222, 222);
+}
+h5{
+    color: rgba(156, 150, 147, 0.989);
+}
+.tijah{
+    color: #ff0000;
+}
+:hover .tijah{
+    color: rgb(73, 255, 1);
+}
+.khidma{
+    color: #1beb17;
+}
+:hover.khidma{
+    color: rgb(0, 255, 221);
+}
+.titr{
+    margin: 0px 10%;
+    margin-bottom: 50px;
+    color: rgb(30, 124, 196);
+    background-color: rgba(237, 15, 15, 0.348);
+    border-bottom: solid 6px rgb(233, 100, 100);
+    text-align: center;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.titr h1{
+    margin-top: 0px;
+}
+.smc{
+    display: flex;;
+    
+}
+.imagCycle img{
+    width: 500px;
+    height: 500px;
+    border: solid 0px rgb(233, 222, 222);
+    border-radius: 1000px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px 1px rgb(158, 155, 155);
+
+}
+.imagCycle{
+    margin: 0px 1%;
+    display: flex;
+}
+.imagCycle h2 {
+    color: rgb(0, 95, 220);
+    padding: 10px;
+    position: absolute;
+    margin-top: -9px;
+    margin-right: 250px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-bottom: solid 4px red;
+}
+.imagCycle p{
+    border-bottom: solid 7px  rgba(255, 0, 0, 0.316);
+    border-top: solid 7px  rgba(255, 0, 0, 0.316);
+    padding-bottom: 10px ;
+    padding-top: 30px;
+    width: 900px;
+    margin-left: 30px;
+}
+.titr-smc{
+    text-align: center;
+    padding: 0px 10px;
+    color: #ad1010;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-bottom: solid 4px red;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+.s{
+    color: rgb(0, 95, 220);
+    text-decoration: none;
+    font-size: large;
+    cursor:pointer;
+}
+:hover.s{
+    color: rgba(255, 0, 0, 0.573);
+}
+.sm{
+    margin-top: 0px;
+    margin-right:150Px;
+    width: 550px;
+}
+.sm h3{
+    margin-right: 30px;
+    border-bottom: solid 5px rgba(255, 0, 0, 0.463);
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.s1{
+    display: none;
+    position: absolute;
+    margin-right: 250px;
+    margin-top: -18px;
+    text-align: left;
+}
+
+:hover   .s1{
+    display: block;
+    
+}
+/*****************************dorous-tamarin-exam******************************/
+.dropdown {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  :hover .somi1 a  {
+    color: #a60909;
+  }
+  .dropdown-content {
+    display: none;
+    width: 100%;
+    overflow: auto;
+    text-align: left;
+    margin-right: -30px;
+    padding: 5px 15px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: rgba(0, 110, 255, 0.703);
+
+    border-radius: 20px;
+  }
+  .akbar{
+    color: #04ff00;
+  }
+  .khat-hr{
+    color: #0080ff;
+    width:100% ;
+    height: 20px;
+    display: none;
+    
+}
+/***********************************S6 S6 S6 S6**********************/
+
+.drowns{
+    display: none;
+    overflow: auto;
+    text-align: left;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+.drop:hover .drowns{
+    display: block;
+}
+.drop li {
+   text-align: center;
+   background-color: #FFFFFF;
+}
+.drop{
+    padding-bottom: 17px;
+}
+.drowns{
+    bottom: -8px;
+    position: relative;
+}
+
+
+
+  /**********************************************************************/
+
+
+/******************************bar fin************************************************/
+.barFin{
+    background-color: rgb(13, 11, 11);
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    justify-content: space-etween;
+}
+.bar-fin1{
+    margin-bottom: 0px;
+    background-color: #a60909;
+    display: flex;
+    justify-content: space-between;
+}
+.bar-fin1 h1 a{
+   
+    color: rgb(1, 65, 255);
+}
+.bar-fin1{
+    padding-right:20;
+    
+}
+.bar-fin1 h3{
+    color: #33e1ee;
+    margin-top: 30px;
+}
+.DIV1{
+    display: flex;
+    
+}
+.di1{
+    padding-right: 90px;  
+    margin-right: 140px;
+  }
+  .direct-access{
+    margin: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+  .direct-access:hover{
+      color: #1dcfe7;
+      
+  }
+  .di1 h4{
+    color: #a60909;
+    margin-right: 25px;
+  }
+
+
+
+
+/********************************phone********************************************/
+
+@media  screen and (max-width: 1250px){
+    body{
+        font-size: xx-small;
+    }
+    .khidma{
+        color: #5fdd74;
+        font-size: 20px;
+    }
+    .titr {
+        border-bottom: solid 4px rgb(234, 76, 76);
+        margin-bottom: 0px;
+    }
+   .imagCycle img {
+    width: 300px;
+    height: 300px;
+   } 
+   .imagCycle{
+    margin-right: 50px;
+    display: none;
+   }
+    ul li{
+     color:rgb(233, 222, 222);
+    }
+    .sm h3{
+        background-color: aliceblue;
+        padding: 5px 30px ;
+        border-radius: 50px;
+    }
+    .s{
+        font-size: x-small;
+    }
+    .smc{
+        display: inline;
+        text-align:center;
+        
+    }
+    .sm{
+        
+         width: 90%;
+         margin-left: 5%;
+         margin-right: 5%;
+    }
+    .sm h3 img {
+        width: 13px;
+    }
+    .titr-smc{
+        margin-top: 20px;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .khat-hr{
+        display: block; 
+    }
+        
+
+/*************************************s6 S6 S6 ************************/
+    .drowns{
+        display: none;
+        overflow: auto;
+        text-align: left;
+        padding: 5px 5px;
+        border-radius: 20px;
+        margin-bottom: 0px;
+    }
+    .drop:hover .drowns{
+        display: block;
+    }
+
+
+/*****************bar fin***********************************************/
+.DIV1{
+        display: none;
+        display: flow-root;
+        
+}
+.di1{
+        
+        margin-right: 1rem;
+        padding-right: 30px;
+}
+
+
+}
+/***********************320***************************/
+
+@media  screen and (max-width: 390px){
+    *{
+        font-size: xx-small;
+    }
+
+
+   .sm{
+        margin: -10px;
+         width: 100%;
+
+    }
+    .titr-smc{
+        margin: 25px 0px;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .titr{
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+}
+/***************************bar-fin320***************************/
+.di1{
+        
+    margin-right: 0rem;
+    padding-bottom: 0px;
+}
+
+
+

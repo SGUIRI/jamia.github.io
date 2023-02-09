@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(233, 222, 222);
+
+}
+p{
+ margin-right: 20px;
+ margin-top: 55px;
+ border-top: solid 4px red;
+ border-bottom: solid 4px red;
+ padding: 40px 10px;
+ border-radius: 20px;
+}
+h1{
+  color: red;
+  margin-right: 10px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 2px 20px;
+  margin-right: 90px;
+  border-radius: 20px;
+  border-bottom: solid 3px rgb(255, 0, 0);
+}
+
+.imag-logoo{
+  width: 150px;
+  height: auto;
+  margin-right: 30px;
+  
+}
+.bar-top{
+  background-color: rgba(217, 217, 217, 0.271);
+}
+.clic{
+  margin: 10px 50%;
+  width: 100px;
+  height: 40Px;
+  background-color: white;
+  border-radius: 20px;
+  border: solid 0;
+}
+:hover.clic {
+  background-color: rgb(236, 46, 46)
+}
+.clic a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+@media  screen and (max-width: 320px){
+
+html{
+font-size: x-small;
+} 
+.paragraph{
+  width: 100%;
+}
+.clic{
+  margin:20px 34%;
+  width: 100px;
+  height: 40Px;
+  background-color: white;
+  border-radius: 20px;
+  border: solid 0;
+}
+ .imag-logoo{
+  width: 90px;
+  height: 70px;
+}
+
+}
